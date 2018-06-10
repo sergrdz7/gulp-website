@@ -53,12 +53,6 @@ var IMAGES_PATH = 'public/images/**/*.{png,jpeg,jpg,svg,gif}';
 //     .pipe(livereload());
 // });
 
-// //RUN HTML FILES
-// gulp.task('html', function() {
-//   console.log('running html file');
-//   livereload();
-// });
-
 //STYLES WITH SASS
 gulp.task('styles', function(){
   console.log('starting styles task');
